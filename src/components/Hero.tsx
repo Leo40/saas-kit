@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const Hero = () => {
   const techLogos = [
@@ -57,14 +58,16 @@ const Hero = () => {
             Pre-Order Now - $49
           </Button>
 
-          <Button
-            variant="link"
-            size="lg"
-            aria-label="Join early access waitlist"
-            className="px-4 py-2 text-base font-medium text-indigo-600 hover:text-indigo-700 cursor-pointer"
-          >
-            Join Waitlist
-          </Button>
+          <Link href="/login" passHref>
+            <Button
+              variant="link"
+              size="lg"
+              aria-label="Join early access waitlist"
+              className="px-4 py-2 text-base font-medium text-indigo-600 hover:text-indigo-700 cursor-pointer"
+            >
+              Try the Demo
+            </Button>
+          </Link>
         </div>
 
         {/* Hero Image */}

@@ -72,6 +72,9 @@ const nextConfig: NextConfig = bundleAnalyzer({
 
   // Optimize for production
   productionBrowserSourceMaps: false, // Disable in production for better performance
+
+  // Hide indicator
+  devIndicators: false,
 });
 
 export default nextConfig;
