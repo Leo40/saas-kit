@@ -15,16 +15,6 @@ const nextConfig: NextConfig = bundleAnalyzer({
     removeConsole: process.env.NODE_ENV === "production",
   },
 
-  // Turbopack-specific optimizations
-  turbopack: {
-    // Optimize module resolution
-    resolveAlias: {
-      // Add any necessary aliases here
-    },
-    // Memory optimization
-    // memoryLimit: 4096,
-  },
-
   // Optimize static generation
   poweredByHeader: false,
 

@@ -34,12 +34,24 @@ const Navbar = () => {
         <div className="flex items-center gap-5 w-8.875">
           <a
             href="#features"
+            onClick={(e) => {
+              e.preventDefault();
+              document
+                .getElementById("features")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
             className="text-gray-600 hover:text-gray-900 text-base leading-6 font-semibold transition-colors duration-200"
           >
             Features
           </a>
           <a
             href="#pricing"
+            onClick={(e) => {
+              e.preventDefault();
+              document
+                .getElementById("pricing")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
             className="text-gray-600 hover:text-gray-900 text-base leading-6 font-semibold transition-colors duration-200"
           >
             Pricing
