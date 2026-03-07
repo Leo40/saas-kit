@@ -16,7 +16,7 @@ const Footer = () => {
               }}
             />
             <Image
-              src="/images/logos/blankBase-logo.svg"
+              src="/images/logos/plankbase-logo.svg"
               alt="PlankBase Logo"
               width={20}
               height={20}
