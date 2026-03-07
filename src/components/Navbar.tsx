@@ -21,14 +21,14 @@ const Navbar = () => {
               }}
             />
             <Image
-              src="/images/logos/nextbase-logo.svg"
-              alt="NextBase Logo"
+              src="/images/logos/plankBase-logo.svg"
+              alt="PlankBase Logo"
               width={20}
               height={20}
               className="w-5 h-5 relative z-10"
             />
           </div>
-          <span className="text-xl font-semibold text-gray-900">NextBase</span>
+          <span className="text-xl font-semibold text-gray-900">PlankBase</span>
         </div>
         {/* Navigation Links */}
         <div className="flex items-center gap-5 w-8.875">

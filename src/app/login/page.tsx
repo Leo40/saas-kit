@@ -55,7 +55,7 @@ export default function LoginPage() {
       {/* Left branding panel */}
       <div className="hidden lg:flex w-1/2 bg-indigo-600 flex-col justify-between p-12">
         <span className="text-white font-bold text-xl tracking-tight">
-          NextBase
+          PlankBase
         </span>
         <div className="space-y-6">
           <h1 className="text-4xl font-bold text-white leading-tight">
@@ -98,7 +98,7 @@ export default function LoginPage() {
           </div>
         </div>
         <p className="text-indigo-300 text-sm">
-          © 2025 NextBase. All rights reserved.
+          © 2025 PlankBase. All rights reserved.
         </p>
       </div>
 
@@ -113,7 +113,7 @@ export default function LoginPage() {
         <div className="w-full max-w-md">
           {/* Mobile logo */}
           <div className="lg:hidden mb-8 text-center">
-            <span className="text-indigo-600 font-bold text-xl">NextBase</span>
+            <span className="text-indigo-600 font-bold text-xl">PlankBase</span>
           </div>
 
           {/* Heading */}

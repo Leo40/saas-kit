@@ -16,26 +16,26 @@ const Footer = () => {
               }}
             />
             <Image
-              src="/images/logos/nextbase-logo.svg"
-              alt="NextBase Logo"
+              src="/images/logos/blankBase-logo.svg"
+              alt="PlankBase Logo"
               width={20}
               height={20}
               className="w-5 h-5 relative z-10"
             />
           </div>
-          <span className="text-xl font-semibold text-gray-900">NextBase</span>
+          <span className="text-xl font-semibold text-gray-900">PlankBase</span>
         </div>
 
         {/* Copyright Text */}
         <div className="text-gray-500 text-sm text-center sm:text-left order-last sm:order-none">
-          © 2025 NextBase. All rights reserved.
+          © 2025 PlankBase. All rights reserved.
         </div>
 
         {/* Links and Social Section */}
         <div className="flex items-center space-x-6">
           {/* Text Links */}
           <a
-            href="mailto:support@nextbase.com"
+            href="mailto:support@plankbase.com"
             className="text-gray-600 hover:text-gray-900 text-sm transition-colors duration-200"
           >
             Contact
@@ -50,7 +50,7 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex items-center space-x-3 ml-2">
             <a
-              href="https://twitter.com/nextbase"
+              href="https://twitter.com/plankbase"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-gray-600 transition-colors duration-200"
@@ -59,7 +59,7 @@ const Footer = () => {
               <FaTwitter className="w-5 h-5" />
             </a>
             <a
-              href="https://github.com/nextbase"
+              href="https://github.com/plankbase"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-gray-600 transition-colors duration-200"
@@ -68,7 +68,7 @@ const Footer = () => {
               <FaGithub className="w-5 h-5" />
             </a>
             <a
-              href="https://linkedin.com/company/nextbase"
+              href="https://linkedin.com/company/plankbase"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-gray-600 transition-colors duration-200"

@@ -75,7 +75,7 @@ const Hero = () => {
           <div className="relative rounded-2xl overflow-hidden ">
             <Image
               src="/images/centered-hero-mockup.webp"
-              alt="NextBase Dashboard and Mobile App Mockup"
+              alt="PlankBase Dashboard and Mobile App Mockup"
               width={1200}
               height={800}
               className="w-full h-auto"

@@ -18,7 +18,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "NextBase",
+  title: "PlankBase",
   description: "The Production-Ready Starter Kit for Next.js",
 };
 

@@ -17,13 +17,13 @@ const FAQ = () => {
       question:
         "Why should I pay for this when there are free open-source starters?",
       answer:
-        "Free starters are a great way to get started, but they are often complex, unopinionated, and lack support. NextBase is different. It's a professional, production-ready system designed to solve the most painful parts of the Next.js App Router—auth, sessions, and security—out of the box. We've spent hundreds of hours on the details so you can launch in minutes, not weeks. You're not just buying code; you're buying speed, confidence, and peace of mind. Most starter kits, even premium ones, just give you a link to a GitHub repo and a complicated README file. Some even require you to schedule a 1-on-1 call just to get set up. NextBase is different. We believe the onboarding should be the most magical part of the experience. Our automated Onboarding Wizard takes you from purchase to a fully deployed, monetizable application on your own Vercel account in under five minutes. You're not buying code; you're buying a frictionless launch.",
+        "Free starters are a great way to get started, but they are often complex, unopinionated, and lack support. PlankBase is different. It's a professional, production-ready system designed to solve the most painful parts of the Next.js App Router—auth, sessions, and security—out of the box. We've spent hundreds of hours on the details so you can launch in minutes, not weeks. You're not just buying code; you're buying speed, confidence, and peace of mind. Most starter kits, even premium ones, just give you a link to a GitHub repo and a complicated README file. Some even require you to schedule a 1-on-1 call just to get set up. PlankBase is different. We believe the onboarding should be the most magical part of the experience. Our automated Onboarding Wizard takes you from purchase to a fully deployed, monetizable application on your own Vercel account in under five minutes. You're not buying code; you're buying a frictionless launch.",
     },
     {
       id: "license",
       question: "What does the license include?",
       answer:
-        "The NextBase license is simple. You can use the starter kit to build as many personal or commercial projects as you want. This includes projects for your own business and for your clients. The only thing you cannot do is resell the template itself.",
+        "The PlankBase license is simple. You can use the starter kit to build as many personal or commercial projects as you want. This includes projects for your own business and for your clients. The only thing you cannot do is resell the template itself.",
     },
     {
       id: "refund-policy",
@@ -35,20 +35,20 @@ const FAQ = () => {
       id: "security",
       question: "Is this secure enough for a production application?",
       answer:
-        "Absolutely. Security is our top priority. NextBase is built on top of the most trusted, battle-tested open-source libraries in the ecosystem, including Next-Auth and Supabase. We simply provide a clean, professional, and best-practice implementation of these tools.",
+        "Absolutely. Security is our top priority. PlankBase is built on top of the most trusted, battle-tested open-source libraries in the ecosystem, including Next-Auth and Supabase. We simply provide a clean, professional, and best-practice implementation of these tools.",
     },
     {
       id: "preorder-receipt",
       question: "What will I receive after I pre-order?",
       answer:
-        "You will immediately receive an email confirming your pre-order and your 50% discount. As soon as NextBase is launched (we're targeting a release in the next 4-6 weeks), you will be the first to receive an email with a private link to download the full source code from GitHub.",
+        "You will immediately receive an email confirming your pre-order and your 50% discount. As soon as PlankBase is launched (we're targeting a release in the next 4-6 weeks), you will be the first to receive an email with a private link to download the full source code from GitHub.",
     },
     {
       id: "skill-level",
       question:
         "What skill level is this for? Do I need to be a senior developer?",
       answer:
-        "Not at all. NextBase is designed for developers who are comfortable with React and Next.js but don't want to waste time on repetitive setup. If you have 1-2 years of professional experience, you will find our code clean, easy to understand, and ready to build upon. Our world-class documentation is designed to get you up and running in minutes, regardless of your seniority.",
+        "Not at all. PlankBase is designed for developers who are comfortable with React and Next.js but don't want to waste time on repetitive setup. If you have 1-2 years of professional experience, you will find our code clean, easy to understand, and ready to build upon. Our world-class documentation is designed to get you up and running in minutes, regardless of your seniority.",
     },
   ];
 

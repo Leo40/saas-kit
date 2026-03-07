@@ -166,7 +166,7 @@ export default function DashboardLayout({
                   textDecoration: "none",
                 }}
               >
-                NextBase
+                PlankBase
               </Link>
             </span>
             <button

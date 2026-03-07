@@ -39,7 +39,7 @@ const Features = () => {
           </h2>
 
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            NextBase provides a secure, scalable, and beautifully designed
+            PlankBase provides a secure, scalable, and beautifully designed
             foundation with pre-built solutions for the most common development
             hurdles.
           </p>
@@ -50,7 +50,7 @@ const Features = () => {
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <Image
               src="/images/centered-hero-mockup.webp"
-              alt="NextBase Dashboard and Mobile App Features Mockup"
+              alt="PlankBase Dashboard and Mobile App Features Mockup"
               width={1200}
               height={700}
               className="w-full h-auto"
