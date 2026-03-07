@@ -21,7 +21,7 @@ const Navbar = () => {
               }}
             />
             <Image
-              src="/images/logos/plankBase-logo.svg"
+              src="/images/logos/plankbase-logo.svg"
               alt="PlankBase Logo"
               width={20}
               height={20}
