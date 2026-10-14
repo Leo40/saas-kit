@@ -86,10 +86,11 @@ const Hero = () => {
         <FadeIn delay={150}>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button
+              asChild
               size="lg"
               className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 text-lg font-semibold cursor-pointer"
             >
-              Pre-Order Now - $49
+              <Link href="/#pricing">Pre-Order Now - $49</Link>
             </Button>
             <Link href="/login" passHref>
               <Button

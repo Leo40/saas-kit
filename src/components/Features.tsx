@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Shield, Component, BookText, ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const Features = () => {
   const features = [
@@ -88,13 +89,15 @@ const Features = () => {
 
                 {/* Link */}
                 <Button
+                  asChild
                   variant="link"
                   size="lg"
-                  aria-label="Join early access waitlist"
                   className="px-4 py-2 text-base font-semibold text-indigo-600 hover:text-indigo-700 cursor-pointer"
                 >
-                  Learn more
-                  <ArrowRight className="w-6 h-6 py-auto" />
+                  <Link href="/#faq" aria-label="Learn more in the FAQ">
+                    Learn more
+                    <ArrowRight className="w-6 h-6 py-auto" />
+                  </Link>
                 </Button>
               </div>
             );

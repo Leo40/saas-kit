@@ -18,8 +18,21 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "PlankBase",
-  description: "The Production-Ready Starter Kit for Next.js",
+  title: "PlankBase - Next.js Starter Kit Case Study",
+  description:
+    "A production-ready Next.js starter kit with Next-Auth, Supabase, and Stripe. Go from clone to a deployed, monetizable app in under an hour.",
+  openGraph: {
+    title: "PlankBase - Next.js Starter Kit Case Study",
+    description:
+      "A production-ready Next.js starter kit with Next-Auth, Supabase, and Stripe. Launch faster with auth, billing, and a polished dashboard included.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PlankBase - Next.js Starter Kit Case Study",
+    description:
+      "A production-ready Next.js starter kit with Next-Auth, Supabase, and Stripe.",
+  },
 };
 
 export default function RootLayout({

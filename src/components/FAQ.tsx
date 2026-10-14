@@ -102,8 +102,11 @@ const FAQ = () => {
             hours.
           </p>
 
-          <Button className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 font-semibold cursor-pointer">
-            Get in touch
+          <Button
+            asChild
+            className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 font-semibold cursor-pointer"
+          >
+            <a href="mailto:support@plankbase.com">Get in touch</a>
           </Button>
         </div>
       </div>

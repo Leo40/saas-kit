@@ -1,17 +1,12 @@
-"use client";
-import React, { useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
-  const [open, setOpen] = useState(false);
-  const triggerRef = useRef<HTMLButtonElement>(null);
-
   return (
     <nav className="flex items-center justify-between px-6 py-4 md:px-20 md:py-5 bg-white border-b border-gray-200">
-      {/* Logo Section */}
       <div className="flex items-center gap-8">
-        <div className="flex items-center space-x-2">
+        <Link href="/" className="flex items-center space-x-2">
           <div className="relative w-8 h-8 rounded-lg flex items-center justify-center">
             <div
               className="absolute inset-0 rounded-lg opacity-20"
@@ -29,46 +24,29 @@ const Navbar = () => {
             />
           </div>
           <span className="text-xl font-semibold text-gray-900">PlankBase</span>
-        </div>
-        {/* Navigation Links */}
+        </Link>
         <div className="flex items-center gap-5 w-8.875">
-          <a
-            href="#features"
-            onClick={(e) => {
-              e.preventDefault();
-              document
-                .getElementById("features")
-                ?.scrollIntoView({ behavior: "smooth" });
-            }}
+          <Link
+            href="/#features"
             className="text-gray-600 hover:text-gray-900 text-base leading-6 font-semibold transition-colors duration-200"
           >
             Features
-          </a>
-          <a
-            href="#pricing"
-            onClick={(e) => {
-              e.preventDefault();
-              document
-                .getElementById("pricing")
-                ?.scrollIntoView({ behavior: "smooth" });
-            }}
+          </Link>
+          <Link
+            href="/#pricing"
             className="text-gray-600 hover:text-gray-900 text-base leading-6 font-semibold transition-colors duration-200"
           >
             Pricing
-          </a>
+          </Link>
         </div>
       </div>
 
-      {/* Pre-Order Button */}
       <Button
-        ref={triggerRef}
-        onClick={() => setOpen(true)}
-        aria-haspopup="dialog"
-        aria-expanded={open ? true : false}
+        asChild
         variant="outline"
         className="rounded-full text-sm font-medium border border-indigo-200 hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-300 cursor-pointer"
       >
-        Get Early Access
+        <Link href="/#waitlist">Get Early Access</Link>
       </Button>
     </nav>
   );

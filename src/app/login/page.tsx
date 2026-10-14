@@ -98,7 +98,7 @@ export default function LoginPage() {
           </div>
         </div>
         <p className="text-indigo-300 text-sm">
-          © 2025 PlankBase. All rights reserved.
+          © {new Date().getFullYear()} PlankBase. All rights reserved.
         </p>
       </div>
 

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
@@ -28,7 +29,7 @@ const Footer = () => {
 
         {/* Copyright Text */}
         <div className="text-gray-500 text-sm text-center sm:text-left order-last sm:order-none">
-          © 2025 PlankBase. All rights reserved.
+          © {new Date().getFullYear()} PlankBase. All rights reserved.
         </div>
 
         {/* Links and Social Section */}
@@ -40,12 +41,12 @@ const Footer = () => {
           >
             Contact
           </a>
-          <a
-            href="#"
+          <Link
+            href="/privacy"
             className="text-gray-600 hover:text-gray-900 text-sm transition-colors duration-200"
           >
             Privacy Policy
-          </a>
+          </Link>
 
           {/* Social Links */}
           <div className="flex items-center space-x-3 ml-2">
